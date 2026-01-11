@@ -2,7 +2,7 @@ import React from 'react'
 import Navigation from '../components/Navigation'
 import SearchBar from '../components/SearchBar'
 import HomeItems from '../components/HomeItems'
-import CartItems from '../components/cartItems'
+import CartItems from '../components/CartItems'
 
 const Cart = ({ products }) => {
   return (
