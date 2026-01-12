@@ -8,7 +8,7 @@ const Home = ({addToCart,products}) => {
   
   return (
     <div className='p-3 mt-4 relative'>
-      <Link to='/login' className='p-0.5 bg-red-200 text-[15px] italic absolute top-0 right-3'>Logout</Link>
+      <Link to='/' className='p-0.5 bg-red-200 text-[15px] italic absolute top-0 right-3'>Logout</Link>
       
       <div>
         <div className='text-gray-700 text-center text-[30px] font-extrabold'>छाबड़ा स्टोर</div>

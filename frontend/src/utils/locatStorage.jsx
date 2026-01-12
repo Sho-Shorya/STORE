@@ -113,12 +113,12 @@ const products = [
 
 const users = [{
   "id": 1,
-  "email": 'new@1.gmail.com',
-  "password": 1234,
+  "email": "new1@gmail.com",
+  "password": "1234",
 }, {
   "id": 2,
-  "email": 'new@2.gmail.com',
-  "password": 4321,
+  "email": "new2@gmail.com",
+  "password": "4321",
 }
 ]
 
@@ -126,6 +126,15 @@ const users = [{
 if (!localStorage.getItem('users')) {
     localStorage.setItem("users", JSON.stringify(users))
   }
+
+// export const getUsers = () => {
+//   try {
+//     const users = JSON.parse(localStorage.getItem('users') || [])
+//     return { users };
+//   } catch {
+//     return { users: [] };
+//   }
+// }
 export const getProductLocally = () => {
   try {
     const products = JSON.parse(localStorage.getItem('products') || [])
