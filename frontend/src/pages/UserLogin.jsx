@@ -23,7 +23,7 @@ const userLogin = () => {
 
         <Link to='/forgotPassword' className='text-right mt-3 text-blue-400'>Forgot your Password ?</Link>
 
-        <button className='mt-15 bg-red-500 p-3 rounded-[50px] text-white'>LOGIN</button>
+        <Link to='/' className='mt-15 text-center bg-red-500 p-3 rounded-[50px] text-white'>LOGIN</Link>
         <Link to='/signup' className='flex items-center justify-center mt-1 bg-gray-200 p-3 rounded-[50px] text-black'>Sign-up</Link>
       </div>
       </form>

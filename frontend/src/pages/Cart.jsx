@@ -12,7 +12,8 @@ const Cart = ({ products }) => {
         <SearchBar />
         
       </div>
-
+      
+      <CartItems />
       <Navigation />
     </div>
   )
