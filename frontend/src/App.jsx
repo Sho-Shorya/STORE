@@ -11,6 +11,8 @@ import ProductProvider,{ ProductContext } from "./Context/ProductProvider"
 
 function App() {
   const [products,setProducts,addToCart] = useContext(ProductContext)
+
+  
   return (
     <div>
       <Routes>
