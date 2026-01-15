@@ -9,7 +9,8 @@ const Cart = ({ products }) => {
     <div className='p-3 mt-4'>
       <div className='sticky-searchbar'>
         <h1 className='text-gray-700 text-center text-[30px] font-extrabold'>आज का ऑर्डर</h1>
-        <SearchBar />
+        
+        <br/>
         
       </div>
       

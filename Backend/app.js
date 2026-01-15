@@ -1,12 +1,11 @@
 const dotenv = require('dotenv');
+const express = require('express');
+const cors = require('cors');
 dotenv.config();
-const express = require('express')
-const cors = require('cors')
-const app = express()
-app.use(cors())
+const app = express();
+app.use(cors());
+app.get('/', (req, res) => {
+  res.send('we are connected');
+});
 
-const PORT = 3000;
-app.get('/',(req,res) =>{
-  res.send("we are connected")
-})
 module.exports = app;
